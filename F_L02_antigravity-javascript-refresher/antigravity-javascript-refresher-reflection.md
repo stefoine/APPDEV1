@@ -8,7 +8,10 @@ Using only 01_base_syntax.js as the target, explain first what the file contains
 I learned that in the naming convention is a very important thing you should learn because there are valid and invalid variable naming. Furthermore, you should be very mindful on the capitalization or use-cases because Javascript is case-sensitive.
 
 ### 02_variables.js
-
+# Prompt
+Open 02_variables.js. Do not modify anything yet. Kindly explain to me the content and how does each variable relate to another.
+# Reflection
+I learned about the difference of the loose and strict equality, like how the == converts the string into a number before comparing, and how the === checks both value and type without changing anything.
 
 ### 03_functions.js
 
