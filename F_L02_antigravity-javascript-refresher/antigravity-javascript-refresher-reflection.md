@@ -39,7 +39,14 @@ I learned that .push() adds the element at the end of the array, while the .shif
 I learned that when you make CLI create a new variable and implement it to the existing function, it would first debug it and make sure it will work with the current function, then it would alter it and debug it if problem arise.
 
 ### 07_dom.html
+# Prompt
+Open 07_dom.html, explain what does the:
+  - getElementById("changeColorBtn")
+  - addEventListener
 
+  do?
+# Reflection
+I learned that the document.getElementById("changeColorBtn") searches the DOM tree for an HTML element with an id attribute matching "changeColorBtn". Additionally, the addEventListener attaches an event handler/listener function to a target element so it can respond to user actions.
 
 ### 08_essential_features.js
 
