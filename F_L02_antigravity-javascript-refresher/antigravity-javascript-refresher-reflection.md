@@ -14,7 +14,11 @@ Open 02_variables.js. Do not modify anything yet. Kindly explain to me the conte
 I learned about the difference of the loose and strict equality, like how the == converts the string into a number before comparing, and how the === checks both value and type without changing anything.
 
 ### 03_functions.js
-
+# Prompt
+Implement 03_functions.js with:
+  - add a greetings in greet(name), like a simple time check, "Hello, " + name ". Goodmorning/Evening it is currently" + time.
+# Reflection
+I have learned that you can put multiple methods within a function to make it more efficient and organized.
 
 ### 04_objects.js
 

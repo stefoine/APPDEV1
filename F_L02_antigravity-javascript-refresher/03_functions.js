@@ -1,5 +1,10 @@
 function greet(name) {
-    return "Hello, " + name;
+    const now = new Date();
+    const hour = now.getHours();
+    const time = now.toLocaleTimeString();
+    const greeting = hour < 12 ? "Good morning" : (hour < 18 ? "Good afternoon" : "Good evening");
+
+    return "Hello, " + name + ". " + greeting + ", it is currently " + time + ".";
 }
 
 const square = (num) => {
