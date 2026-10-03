@@ -27,7 +27,10 @@ Open 04_objects.js, explain to me why in the introduce() cannot be done in an ar
 I learned that you cannot use an arrow function in the introduction()when using template literals, because an arrow functions do not create their own this context.
 
 ### 05_arrays.js
-
+# Prompt
+Open 05_arrays.js, compare the original array and transformed array. Tell me the difference that the .push and .shift do.
+# Reflection
+I learned that .push() adds the element at the end of the array, while the .shift() removes the first element of the array.
 
 ### 06_control_structures.js
 
