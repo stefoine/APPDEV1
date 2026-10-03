@@ -21,7 +21,10 @@ Implement 03_functions.js with:
 I have learned that you can put multiple methods within a function to make it more efficient and organized.
 
 ### 04_objects.js
-
+# Prompt
+Open 04_objects.js, explain to me why in the introduce() cannot be done in an arrow function when using the template literals
+# Reflection
+I learned that you cannot use an arrow function in the introduction()when using template literals, because an arrow functions do not create their own this context.
 
 ### 05_arrays.js
 
