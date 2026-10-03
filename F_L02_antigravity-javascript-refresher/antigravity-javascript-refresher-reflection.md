@@ -33,7 +33,10 @@ Open 05_arrays.js, compare the original array and transformed array. Tell me the
 I learned that .push() adds the element at the end of the array, while the .shift() removes the first element of the array.
 
 ### 06_control_structures.js
-
+# Prompt
+06_control_structure.js, create another variable named studentScore then make it so the value will be log to A
+# Reflection
+I learned that when you make CLI create a new variable and implement it to the existing function, it would first debug it and make sure it will work with the current function, then it would alter it and debug it if problem arise.
 
 ### 07_dom.html
 
