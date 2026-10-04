@@ -14,7 +14,14 @@ class Student extends Person {
     }
 }
 
-const student = new Student("Stefan");
+class BSISStudent extends Student {
+    enrollmentStatus() {
+        console.log(this.name + " is enrolled at 3rd year BSIS.");
+    }
+}
+
+const student = new BSISStudent("Stefan");
 
 student.sayHello();
 student.study();
+student.enrollmentStatus();

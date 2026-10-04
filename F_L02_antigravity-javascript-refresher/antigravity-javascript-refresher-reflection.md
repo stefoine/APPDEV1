@@ -85,7 +85,10 @@ Open 13_spread_rest.js. then show me the difference of the arrays before and aft
 I learned that you can still print the original array even after the spreading because it does not change the original array instead it clones it into a new array.
 
 ### 14_classes_inheritance.js
-
+# Prompt
+Open 14_classes_inheritance.js, create a new class which states that the student is "enrolled at 3rd year BSIS", but before editing show me what you want to change and explain how did the extends work
+# Reflection
+I learned that the extends keyword establishes inheritance through the prototype chain. From the word itself inheritance, it inherits the characteristics the parent class have to the child class.
 
 ### 15_modules_export.js
 
