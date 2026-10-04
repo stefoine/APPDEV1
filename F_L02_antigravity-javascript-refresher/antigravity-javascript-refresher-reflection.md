@@ -61,7 +61,10 @@ In 09_tricky_parts.js, differentiate the regularMethod from arrowMethod and to w
 I learned that the this.name doesnt work for both regularMethod and arrowMethod is because the arrowMethod do not have their own this. Instead, they bind this. lexically, and the regularMethod have dynamic this. function. In addition, I learned that copyByReference from the word itself reference, it pointers to memory addresses and is a shared memory, while the copyBySpread is an independent clone, it creates a new array which mean sit does not interfere with the original array.
 
 ### 10_let_const.js
-
+# Prompt
+Open 10_let_const.js., and explain to me the very difference of let, const, and var, and why does the var should be avoided? and if you can, please explain what is there a need for the var?
+# Reflection
+I learned that the const variable itself is a constant, which means it cannot be reassigned a value no matter what. On the other hand, the let variable is reassignable which means it can be changed. Lastly, the var ignores the block scope which the let and const do not. However, car should be avoided because it can lead to bugs that is why in the modern JavaScript there is little to no use of it.
 
 ### 11_arrow_functions.js
 
