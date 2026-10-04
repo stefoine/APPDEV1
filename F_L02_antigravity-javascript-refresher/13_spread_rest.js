@@ -21,3 +21,4 @@ function sum(...args) {
 }
 
 console.log(sum(1, 2, 3, 4));
+console.log("Original numbers array (unchanged):", numbers);

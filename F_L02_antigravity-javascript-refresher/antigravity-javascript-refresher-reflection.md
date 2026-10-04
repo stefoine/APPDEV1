@@ -79,7 +79,10 @@ Open 12_destructuring.js then explain the difference of the 3 destructuring used
 I learned the difference of the 3 destructing used: Object Destructuring variable names must match existing keys on the object, Array Destructuring variable names do not need to match anything on the array, Function Parameter Destructuring unpacks only the required property (name) right at the parameter level.
 
 ### 13_spread_rest.js
-
+# Prompt
+Open 13_spread_rest.js. then show me the difference of the arrays before and after spreading by adding another console.log at the end that shows it did not change the original array
+# Reflection
+I learned that you can still print the original array even after the spreading because it does not change the original array instead it clones it into a new array.
 
 ### 14_classes_inheritance.js
 
