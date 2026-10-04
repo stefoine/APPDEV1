@@ -73,7 +73,10 @@ Open 11_arrow_functions.js then show me what it would look like if you do not us
 I learned that the  arrow functions, single expressions don't need curly braces {} or the return keyword—they return automatically.
 
 ### 12_destructuring.js
-
+# Prompt
+Open 12_destructuring.js then explain the difference of the 3 destructuring used
+# Reflection
+I learned the difference of the 3 destructing used: Object Destructuring variable names must match existing keys on the object, Array Destructuring variable names do not need to match anything on the array, Function Parameter Destructuring unpacks only the required property (name) right at the parameter level.
 
 ### 13_spread_rest.js
 
