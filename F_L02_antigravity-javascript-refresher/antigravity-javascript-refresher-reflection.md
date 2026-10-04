@@ -67,7 +67,10 @@ Open 10_let_const.js., and explain to me the very difference of let, const, and 
 I learned that the const variable itself is a constant, which means it cannot be reassigned a value no matter what. On the other hand, the let variable is reassignable which means it can be changed. Lastly, the var ignores the block scope which the let and const do not. However, car should be avoided because it can lead to bugs that is why in the modern JavaScript there is little to no use of it.
 
 ### 11_arrow_functions.js
-
+# Prompt
+Open 11_arrow_functions.js then show me what it would look like if you do not use arrow function, then explain why is it better to use the arrow function.
+# Reflection
+I learned that the  arrow functions, single expressions don't need curly braces {} or the return keyword—they return automatically.
 
 ### 12_destructuring.js
 
