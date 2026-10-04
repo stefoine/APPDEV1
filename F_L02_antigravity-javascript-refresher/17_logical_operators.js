@@ -17,8 +17,8 @@ const canLogIn = username !== "" && password !== "";
 
 console.log(canLogIn);
 
-const isAdmin = false;
-const isSubscriber = true;
+const isAdmin = true;
+const isSubscriber = false;
 
 const canWatch = isAdmin || isSubscriber;
 

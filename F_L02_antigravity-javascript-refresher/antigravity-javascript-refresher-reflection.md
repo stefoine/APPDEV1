@@ -107,21 +107,13 @@ Open both files:
 I learned that you can print the other property of an array into another line separated from the other properties.
 
 ### 17_logical_operators.js
-
+# Prompt
+Open 17_logical_operators.js, change both the boolean value of isAdmin and IsSubscriber, then before running it show me your prediction then compare that to the actual result
+# Reflection
+I learned that even though isSubscriber was switched to false, canWatch remains true because isAdmin was changed to true. With ||, a user only needs either privilege to gain access, because || (OR) is true if either side is true.
 
 ### 18_ternary_nullish.js
-
-
-### 19_strings_numbers.js
-
-
-### 20_array_methods.js
-
-
-### 21_errors_json.js
-
-
-### 22_async_javascript.js
-
-
-### 23_closures_scope.js
+# Prompt 
+18_ternary_nullish.js. then create an if-else statement after line 3, which states  >= 90 is "with homors" then >= 70 is "graduate"
+# Reflection
+I learned that by comparing the if-else and the ternary operator, the ternary operator is a much efficient and shorter (one line) version of the if-else.

@@ -2,6 +2,14 @@ const score = 85;
 
 const result = score >= 70 ? "Pass" : "Fail";
 
+if (score >= 90) {
+    console.log("with honors");
+} else if (score >= 70) {
+    console.log("graduate");
+} else {
+    console.log("fail");
+}
+
 console.log(result);
 
 const num = 6;
