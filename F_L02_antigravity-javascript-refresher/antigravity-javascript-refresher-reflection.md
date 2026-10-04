@@ -55,7 +55,10 @@ Open 08_essential_features.js., then explain to me how does the .map work and th
 I learned that the .map() is used to iterates every item in an array, and how the ...numbers spreads all the elements into a new array instead of just adding it into the old array.
 
 ### 09_tricky_parts.js
-
+# Prompt
+In 09_tricky_parts.js, differentiate the regularMethod from arrowMethod and to why the this.name doesnt work for both, then the difference of copyByReference and copyBySpread
+# Reflection
+I learned that the this.name doesnt work for both regularMethod and arrowMethod is because the arrowMethod do not have their own this. Instead, they bind this. lexically, and the regularMethod have dynamic this. function. In addition, I learned that copyByReference from the word itself reference, it pointers to memory addresses and is a shared memory, while the copyBySpread is an independent clone, it creates a new array which mean sit does not interfere with the original array.
 
 ### 10_let_const.js
 
