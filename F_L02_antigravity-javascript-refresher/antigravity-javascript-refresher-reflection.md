@@ -49,7 +49,10 @@ Open 07_dom.html, explain what does the:
 I learned that the document.getElementById("changeColorBtn") searches the DOM tree for an HTML element with an id attribute matching "changeColorBtn". Additionally, the addEventListener attaches an event handler/listener function to a target element so it can respond to user actions.
 
 ### 08_essential_features.js
-
+# Prompt
+Open 08_essential_features.js., then explain to me how does the .map work and the ...numbers work?
+# Reflection
+I learned that the .map() is used to iterates every item in an array, and how the ...numbers spreads all the elements into a new array instead of just adding it into the old array.
 
 ### 09_tricky_parts.js
 
