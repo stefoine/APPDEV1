@@ -94,10 +94,17 @@ I learned that the extends keyword establishes inheritance through the prototype
 # Prompt
 Open 15_modules_export.js add another property under the userInfo, add student boolean as true
 # Reflection
-I learned that you can still add another property under an object that is imported into another
+I learned that you can still add another property under an object that is imported into another file.
 
 ### 16_modules_import.js
-
+# Prompt
+Open both files:
+  @15_modules_export.js
+  @16_modules_import.js
+  
+  then make use of the added property from 15_modules_export.js, create another console.log for it
+# Reflection
+I learned that you can print the other property of an array into another line separated from the other properties.
 
 ### 17_logical_operators.js
 
