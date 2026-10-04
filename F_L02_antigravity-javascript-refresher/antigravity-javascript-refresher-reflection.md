@@ -117,3 +117,6 @@ I learned that even though isSubscriber was switched to false, canWatch remains 
 18_ternary_nullish.js. then create an if-else statement after line 3, which states  >= 90 is "with homors" then >= 70 is "graduate"
 # Reflection
 I learned that by comparing the if-else and the ternary operator, the ternary operator is a much efficient and shorter (one line) version of the if-else.
+
+### agent-subagent-skill
+I learned that the agent is like the PM that oversee and connects everything, the subagent handles a supporting review, and the skill is the detailed structured way of how the code works.
