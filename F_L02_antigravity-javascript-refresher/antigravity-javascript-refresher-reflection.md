@@ -91,7 +91,10 @@ Open 14_classes_inheritance.js, create a new class which states that the student
 I learned that the extends keyword establishes inheritance through the prototype chain. From the word itself inheritance, it inherits the characteristics the parent class have to the child class.
 
 ### 15_modules_export.js
-
+# Prompt
+Open 15_modules_export.js add another property under the userInfo, add student boolean as true
+# Reflection
+I learned that you can still add another property under an object that is imported into another
 
 ### 16_modules_import.js
 
