@@ -1,0 +1,34 @@
+
+:root {
+    /* Font Family */
+    --font-primary: "Space Mono", monospace;
+
+    /* Colors */
+    --color-primary: #5b86e5;
+    --color-panel: #a9c0f0;
+    --color-white: #ffffff;
+    --color-text: #333333;
+    --color-placeholder: #9a9a9a;
+
+    /* Font Sizes */
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 24px;
+    --font-xl: 28px;
+    --font-2xl: 32px;
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xl: 48px;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 24px;
+    --radius-panel: 60px;
+}

@@ -1,6 +1,6 @@
 
-import styles from "./Login.module.css";
-import logo from "../assets/logo.svg";
+import styles from './Login.module.css';
+import logo from '../assets/logo.svg';
 
 export default function Login() {
     return (
