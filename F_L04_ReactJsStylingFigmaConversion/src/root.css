@@ -11,12 +11,12 @@
     --color-placeholder: #9a9a9a;
 
     /* Font Sizes */
-    --font-xs: 12px;
-    --font-sm: 14px;
-    --font-md: 16px;
-    --font-lg: 24px;
-    --font-xl: 28px;
-    --font-2xl: 32px;
+    --font-xs: 10px;
+    --font-sm: 12px;
+    --font-md: 13px;
+    --font-lg: 16px;
+    --font-xl: 22px;
+    --font-2xl: 26px;
 
     /* Spacing */
     --spacing-xs: 4px;
@@ -25,7 +25,6 @@
     --spacing-lg: 24px;
     --spacing-xl: 32px;
     --spacing-2xl: 48px;
-
     /* Border Radius */
     --radius-sm: 8px;
     --radius-md: 12px;
