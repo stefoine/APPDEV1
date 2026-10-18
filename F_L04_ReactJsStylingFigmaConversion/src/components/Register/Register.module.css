@@ -169,3 +169,137 @@
 .loginLink a:hover {
     text-decoration: underline;
 }
+
+/* ---------- Tablet (768px – 1024px) ---------- */
+@media (max-width: 1024px) {
+    .register {
+        width: 92vw;
+        height: auto;
+        min-height: 560px;
+    }
+
+    .left {
+        width: 38%;
+        padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
+    }
+
+    .tagline {
+        font-size: var(--font-xl);
+    }
+
+    .logo {
+        height: auto;
+        max-height: 180px;
+        margin: var(--spacing-md) 0;
+    }
+
+    .right {
+        padding: var(--spacing-xl) var(--spacing-lg);
+        border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+    }
+
+    .form {
+        max-width: 90%;
+    }
+
+    .form h2 {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .socialButtons {
+        gap: var(--spacing-sm);
+    }
+
+    .socialButton {
+        padding: 10px 6px;
+        font-size: var(--font-xs);
+    }
+}
+
+/* ---------- Mobile (below 768px) ---------- */
+@media (max-width: 767px) {
+    .register {
+        flex-direction: column;
+        width: 92vw;
+        max-width: 480px;
+        height: auto;
+        min-height: auto;
+        margin: var(--spacing-lg) auto;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+    }
+
+    .left {
+        width: 100%;
+        padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-md);
+        text-align: center;
+        align-items: center;
+    }
+
+    .tagline {
+        align-self: center;
+        text-align: center;
+        font-size: var(--font-lg);
+    }
+
+    .logo {
+        height: auto;
+        max-height: 90px;
+        margin: var(--spacing-md) 0;
+    }
+
+    .link {
+        font-size: var(--font-xs);
+    }
+
+    .right {
+        width: 100%;
+        padding: var(--spacing-xl) var(--spacing-lg);
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form h2 {
+        font-size: var(--font-lg);
+        margin-bottom: var(--spacing-md);
+        text-align: center;
+    }
+
+    .socialButtons {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .socialButton {
+        width: 100%;
+        padding: 12px 10px;
+        font-size: var(--font-xs);
+        text-align: center;
+    }
+
+    .divider {
+        margin: var(--spacing-md) 0;
+    }
+
+    .form input {
+        padding: 10px 0 8px;
+        margin-bottom: var(--spacing-sm);
+        font-size: var(--font-md);
+    }
+
+    .createButton {
+        height: 48px;
+        font-size: var(--font-md);
+        margin-top: var(--spacing-sm);
+    }
+
+    .loginLink {
+        margin-top: var(--spacing-md);
+        font-size: var(--font-sm);
+    }
+}
+
