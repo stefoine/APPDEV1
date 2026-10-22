@@ -1,0 +1,387 @@
+/* ========================================
+   LOGIN PAGE CONTAINER
+======================================== */
+
+.login {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 0;
+  margin: 0;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+/* ========================================
+   LEFT PANEL - LEAFY BACKGROUND
+======================================== */
+
+.leftPanel {
+  position: relative;
+  flex: 0 0 43.36%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.backgroundImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* ========================================
+   RIGHT PANEL
+======================================== */
+
+.rightPanel {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px 35px;
+  background-color: var(--color-white);
+}
+
+/* ========================================
+   WELCOME HEADING
+======================================== */
+
+.welcomeText {
+  width: 100%;
+  text-align: left;
+  padding-top: 45px;
+  padding-left: 55px;
+  margin-bottom: 75px;
+}
+
+.welcomeText h1 {
+  display: flex;
+  align-items: baseline;
+  gap: 25px;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.hello {
+  font-family: var(--font-main);
+  font-size: var(--font-size-heading);
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.guyss {
+  font-family: var(--font-main);
+  font-size: var(--font-size-subheading);
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+/* ========================================
+   LOGIN AND SIGNUP TABS
+======================================== */
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 110px;
+}
+
+.tab {
+  position: relative;
+  padding: 0 8px 8px;
+  font-family: var(--font-main);
+  font-size: var(--font-size-tab);
+  font-weight: 700;
+  line-height: 1;
+  cursor: default;
+}
+
+.activeTab {
+  color: var(--color-primary);
+}
+
+.activeTab::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: 2px;
+  background-color: var(--color-primary);
+}
+
+.inactiveTab {
+  color: var(--color-inactive);
+}
+
+/* ========================================
+   LOGIN FORM
+======================================== */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--input-width);
+}
+
+.inputGroup {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.inputGroup input {
+  display: block;
+  width: 100%;
+  height: 55px;
+  padding: 8px 2px;
+  border: none;
+  border-bottom: 2px solid var(--color-border);
+  border-radius: 0;
+  background-color: transparent;
+  font-family: var(--font-main);
+  font-size: var(--font-size-input);
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.inputGroup input::placeholder {
+  color: var(--color-placeholder);
+  opacity: 1;
+}
+
+.inputGroup input:focus {
+  border-bottom-color: var(--color-primary-dark);
+}
+
+/* ========================================
+   LOGIN BUTTON
+======================================== */
+
+.loginButton {
+  width: 100%;
+  height: var(--button-height);
+  margin-top: 20px;
+  border: none;
+  border-radius: var(--radius-button);
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  font-family: var(--font-main);
+  font-size: var(--font-size-button);
+  font-weight: 700;
+}
+
+.loginButton:hover {
+  background-color: var(--color-secondary);
+}
+
+/* ========================================
+   SOCIAL LOGIN SECTION
+======================================== */
+
+.socialSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.socialSection p {
+  margin-bottom: 25px;
+  color: var(--color-placeholder);
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.googleIcon {
+  display: block;
+  width: var(--google-icon-size);
+  height: var(--google-icon-size);
+  object-fit: contain;
+}
+
+.facebookIcon {
+  display: block;
+  width: var(--facebook-icon-size);
+  height: var(--facebook-icon-size);
+  object-fit: contain;
+}
+
+/* ========================================
+   RESPONSIVE - TABLET
+======================================== */
+
+@media (max-width: 1100px) {
+  .leftPanel {
+    flex-basis: 43.36%;
+  }
+
+  .rightPanel {
+    padding: 40px 30px;
+  }
+
+  .hello {
+    font-size: 50px;
+  }
+
+  .guyss {
+    font-size: 38px;
+  }
+
+  .tabs {
+    margin-bottom: 80px;
+  }
+
+  .tab {
+    font-size: 30px;
+  }
+
+  .inputGroup input {
+    font-size: 20px;
+  }
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+  .login {
+    height: auto;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .leftPanel {
+    flex: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .backgroundImage {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .rightPanel {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    padding: 35px 25px 50px;
+  }
+
+  .welcomeText {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .welcomeText h1 {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .hello {
+    font-size: 38px;
+  }
+
+  .guyss {
+    font-size: 30px;
+  }
+
+  .tabs {
+    gap: 25px;
+    margin-bottom: 65px;
+  }
+
+  .tab {
+    font-size: 28px;
+  }
+
+  .form {
+    max-width: 432px;
+  }
+
+  .inputGroup input {
+    font-size: 18px;
+  }
+
+  .socialSection {
+    margin-top: 30px;
+  }
+}
+
+/* ========================================
+   RESPONSIVE - SMALL MOBILE
+======================================== */
+
+@media (max-width: 380px) {
+  .hello {
+    font-size: 32px;
+  }
+
+  .guyss {
+    font-size: 25px;
+  }
+
+  .rightPanel {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+/* ========================================
+   SHORT DESKTOP SCREENS
+======================================== */
+
+@media (min-width: 769px) and (max-height: 750px) {
+  .rightPanel {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .welcomeText {
+    margin-bottom: 25px;
+  }
+
+  .tabs {
+    margin-bottom: 50px;
+  }
+
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+
+  .inputGroup input {
+    height: 45px;
+  }
+
+  .loginButton {
+    margin-top: 10px;
+  }
+
+  .socialSection {
+    margin-top: 20px;
+  }
+
+  .socialSection p {
+    margin-bottom: 15px;
+  }
+}

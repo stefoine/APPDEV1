@@ -1,0 +1,46 @@
+:root {
+    /* Colors - Figma Design */
+    --color-background: #f5f5f5;
+    --color-white: #ffffff;
+    --color-primary: #5f7c8d;
+    --color-primary-dark: #4b687a;
+    --color-secondary: #567281;
+    --color-heading: #7a999c;
+
+    /* Text and Form Colors */
+    --color-text: #5f7c8d;
+    --color-placeholder: rgba(95, 124, 141, 0.55);
+    --color-inactive: rgba(95, 124, 141, 0.39);
+    --color-border: #5f7c8d;
+    
+    /* Social Icon Colors */
+    --color-facebook: #1877f2;
+    --color-google-blue: #1976d2;
+    --color-google-green: #4caf50;
+    --color-google-red: #ff3d00;
+    --color-google-yellow: #ffc107;
+
+    /* Typography */
+    --font-main: "Istok Web", sans-serif;
+    --font-size-base: 16px;
+    --font-size-heading: 64px;
+    --font-size-subheading: 48px;
+    --font-size-tab: 36px;
+    --font-size-input: 24px;
+    --font-size-button: 24px;
+
+    /* Border Radius */
+    --radius-panel: 20px;
+    --radius-button: 0px;
+
+    /* Layout */
+    --panel-width: 1280px;
+    --panel-height: 832px;
+    --image-width: 555px;
+    --input-width: 432px;
+    --button-height: 53px;
+
+    /* Social Icons */
+    --google-icon-size: 38px;
+    --facebook-icon-size: 35px;
+}
